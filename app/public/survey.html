@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Behold, your best match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Tell us some name, show us some face.</h2>
+        <p><small>Don't share your sensitive info. Fake ones will do, but you have to put something.</small></p>
+        <br>
+        <input type="text" id="name" class="form-control" required>Name
+        <br>
+        <input type="text" id="photo" class="form-control" required>Photo link
+        <br><br>
+    </div>
+    <div class="container">
+        <h1>Yes, that's a survey.</h1>
+        <h2>Here's some statements. Agree, disagree or lie about it.</h2>
+        <br>
+        <div class="questionBlock">
+            <p><strong>Mr.Grinch has an awesome house.</strong></p>
+            <input type="radio" name="question1" value="1">Oh, hell no
+            <input type="radio" name="question1" value="2">Nah
+            <input type="radio" name="question1" value="3">Meh
+            <input type="radio" name="question1" value="4">Well...OK
+            <input type="radio" name="question1" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>Rain is the best weather.</strong></p>
+            <input type="radio" name="question2" value="1">Oh, hell no
+            <input type="radio" name="question2" value="2">Nah
+            <input type="radio" name="question2" value="3">Meh
+            <input type="radio" name="question2" value="4">Well...OK
+            <input type="radio" name="question2" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>Small talk should be illegal.</strong></p>
+            <input type="radio" name="question3" value="1">Oh, hell no
+            <input type="radio" name="question3" value="2">Nah
+            <input type="radio" name="question3" value="3">Meh
+            <input type="radio" name="question3" value="4">Well...OK
+            <input type="radio" name="question3" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>All the great musicians are dead.</strong>  </p>
+            <input type="radio" name="question4" value="1">Oh, hell no
+            <input type="radio" name="question4" value="2">Nah
+            <input type="radio" name="question4" value="3">Meh
+            <input type="radio" name="question4" value="4">Well...OK
+            <input type="radio" name="question4" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>I wish there was an adult-only Disneyland.</strong></p>
+            <input type="radio" name="question5" value="1">Oh, hell no
+            <input type="radio" name="question5" value="2">Nah
+            <input type="radio" name="question5" value="3">Meh
+            <input type="radio" name="question5" value="4">Well...OK
+            <input type="radio" name="question5" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>Food delivery is one of the greatest achievements of mankind.</strong></p>
+            <input type="radio" name="question6" value="1">Oh, hell no
+            <input type="radio" name="question6" value="2">Nah
+            <input type="radio" name="question6" value="3">Meh
+            <input type="radio" name="question6" value="4">Well...OK
+            <input type="radio" name="question6" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>I don't really miss that many phone calls. I just watch them ring.</strong></p>
+            <input type="radio" name="question7" value="1">Oh, hell no
+            <input type="radio" name="question7" value="2">Nah
+            <input type="radio" name="question7" value="3">Meh
+            <input type="radio" name="question7" value="4">Well...OK
+            <input type="radio" name="question7" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>This planet needs more catchy inspirational songs.</strong></p>
+            <input type="radio" name="question8" value="1">Oh, hell no
+            <input type="radio" name="question8" value="2">Nah
+            <input type="radio" name="question8" value="3">Meh
+            <input type="radio" name="question8" value="4">Well...OK
+            <input type="radio" name="question8" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>I wouldn't care even if all the conspiracy theories were true.</strong></p>
+            <input type="radio" name="question9" value="1">Oh, hell no
+            <input type="radio" name="question9" value="2">Nah
+            <input type="radio" name="question9" value="3">Meh
+            <input type="radio" name="question9" value="4">Well...OK
+            <input type="radio" name="question9" value="5">Absolutely
+        </div>
+        <br>
+        <div class="questionBlock">
+            <p><strong>I've truly enjoyed this survey.</strong></p>
+            <input type="radio" name="question10" value="1">Oh, hell no
+            <input type="radio" name="question10" value="2">Nah
+            <input type="radio" name="question10" value="3">Meh
+            <input type="radio" name="question10" value="4">Well...OK
+            <input type="radio" name="question10" value="5">Absolutely
+        </div>
+        <br>
+        <button id="done">I've had enough. Gimme results already.</button>
+        <br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
+    <script>
+        $(document).ready(function() {
+            $("#done").on("click", function(event) {
+                event.preventDefault()
+                var scores = [
+                            $("input:radio[name=question1]:checked").val(),
+                            $("input:radio[name=question2]:checked").val(),
+                            $("input:radio[name=question3]:checked").val(),
+                            $("input:radio[name=question4]:checked").val(),
+                            $("input:radio[name=question5]:checked").val(),
+                            $("input:radio[name=question6]:checked").val(),
+                            $("input:radio[name=question7]:checked").val(),
+                            $("input:radio[name=question8]:checked").val(),
+                            $("input:radio[name=question9]:checked").val(),
+                            $("input:radio[name=question10]:checked").val()
+                        ].map(Number)
+                function checkButtons(){
+                   if(scores.some(isNaN)){
+                    return false
+                   }
+                   return true
+                }
+
+                if($("#name").val().match(/^[0-9a-zA-Z]+$/) && $("#photo").val().match(/\.(jpeg|jpg|gif|png)$/) && checkButtons()){
+                    console.log('validation works')
+                    var newFriend = {
+                        name: $("#name").val().trim(),
+                        photo: $("#photo").val(),
+                        scores: scores
+                    }
+                    $.post("api/friends", newFriend, function(data){
+                        $("#name").val("")
+                        $("photo").val("")
+                    })
+                }
+                else{
+                    alert("Something is incomplete. Name should be letters or/and numbers. Link should lead to the picture. All the questions have to be answered.")
+                }
+            })
+        })
+    
+    </script>
+</body>
+</html>
