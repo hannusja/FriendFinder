@@ -160,7 +160,6 @@
                 }
 
                 if($("#name").val().match(/^[0-9a-zA-Z]+$/) && $("#photo").val().match(/\.(jpeg|jpg|gif|png)$/) && checkButtons()){
-                    console.log('validation works')
                     var newFriend = {
                         name: $("#name").val().trim(),
                         photo: $("#photo").val(),
