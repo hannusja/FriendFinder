@@ -12,4 +12,4 @@ Here is link to Heroku:
 
 https://powerful-peak-57155.herokuapp.com/
 
-If you wish to clone it and play with it locally: Open FriendFinder folder in your command line and run node server.js, then open http://localhost:777/ in your web browser.
+If you wish to clone it and play with it locally: Open FriendFinder folder in your command line and run npm install, then run node server.js, then open http://localhost:777/ in your web browser.
