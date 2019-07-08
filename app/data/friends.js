@@ -1,8 +1,13 @@
 var friends = 
 [{ 
     name:"Cute doggy",
-    photo:"https://drive.google.com/file/d/1mRRSrvU08Qvm1FYXb8S0pFYGsvf7dGAl/view?usp=sharing",
-    scores:[5,1,4,4,5,1,2,5,4,1]
+    photo:"https://raw.githubusercontent.com/yanjasho/yanjasho.github.io/master/assets/images/background.jpg",
+    scores:[5,1,1,1,1,1,5,1,3,5]
+},
+{ 
+    name:"Adorable doggy",
+    photo:"https://raw.githubusercontent.com/yanjasho/yanjasho.github.io/master/assets/images/background.jpg",
+    scores:[5,1,1,1,1,1,1,5,3,1]
 }]
 
 module.exports = friends

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
 </head>
 <body>
-    <div class="modal" tabindex="-1" role="dialog">
+    <div id = "show_match" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -18,7 +18,8 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Modal body text goes here.</p>
+                    <p id="match"></p>
+                    <img id ="m_face" class="img-fluid" src="" alt="somebody's face">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -150,6 +151,7 @@
                             $("input:radio[name=question9]:checked").val(),
                             $("input:radio[name=question10]:checked").val()
                         ].map(Number)
+
                 function checkButtons(){
                    if(scores.some(isNaN)){
                     return false
@@ -165,8 +167,9 @@
                         scores: scores
                     }
                     $.post("api/friends", newFriend, function(data){
-                        $("#name").val("")
-                        $("photo").val("")
+                        $("#match").text(data.name);
+                        $("#m_face").attr("src", data.photo)
+                        $("#show_match").modal("show")
                     })
                 }
                 else{
